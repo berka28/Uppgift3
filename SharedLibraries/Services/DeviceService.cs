@@ -30,7 +30,7 @@ namespace SharedLibraries.Services
                 await deviceClient.SendEventAsync(payload);
 
                 Console.WriteLine($"Message sent: {json}");
-                await Task.Delay(15 * 1000);
+                await Task.Delay(60 * 1000);
             }
         }
 
